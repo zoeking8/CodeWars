@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E131132F-CC8F-449B-A23A-4141779B1B65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4BEED50F-9E8B-40B5-ADFA-893EC4605629}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWars", "src\CodeWars\CodeWars.csproj", "{4EA2DE59-5E34-4386-891C-34503A62A2EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWars.UnitTests", "test\CodeWars.UnitTests\CodeWars.UnitTests.csproj", "{8EBF8558-6558-422E-AF65-B91D3A3BBED6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1A98C7AF-AF11-4DB8-894B-4F0AC84FDAD3}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EA2DE59-5E34-4386-891C-34503A62A2EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA2DE59-5E34-4386-891C-34503A62A2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA2DE59-5E34-4386-891C-34503A62A2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA2DE59-5E34-4386-891C-34503A62A2EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EBF8558-6558-422E-AF65-B91D3A3BBED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EBF8558-6558-422E-AF65-B91D3A3BBED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EBF8558-6558-422E-AF65-B91D3A3BBED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EBF8558-6558-422E-AF65-B91D3A3BBED6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4EA2DE59-5E34-4386-891C-34503A62A2EB} = {E131132F-CC8F-449B-A23A-4141779B1B65}
+		{8EBF8558-6558-422E-AF65-B91D3A3BBED6} = {4BEED50F-9E8B-40B5-ADFA-893EC4605629}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDED3CEA-87B5-464D-9201-9234496A02F2}
+	EndGlobalSection
+EndGlobal
