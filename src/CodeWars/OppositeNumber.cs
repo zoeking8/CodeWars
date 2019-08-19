@@ -8,6 +8,7 @@ namespace CodeWars
 
 		{
 			return n * -1; 
+
 		}
 	}
 }
