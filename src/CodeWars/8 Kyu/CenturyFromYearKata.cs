@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CodeWars
 {
-	public class CenturyFromYear
+	public class CenturyFromYearKata
 	{
 		public static int YearToCentury(int year)
 		{

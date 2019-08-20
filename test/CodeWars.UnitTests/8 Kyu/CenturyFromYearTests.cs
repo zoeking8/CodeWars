@@ -12,7 +12,7 @@ namespace CodeWars.UnitTests
 
 		public void YearToCentury(int year, int expected)
 		{
-			var actual = CenturyFromYear.YearToCentury(year);
+			var actual = CenturyFromYearKata.YearToCentury(year);
 
 			Assert.AreEqual(expected, actual);
 		}
