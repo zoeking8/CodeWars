@@ -1,8 +1,7 @@
 # CodeWars Katas
 -----------------
 
-#8 Kyu Katas
-[Link](https://github.com/zoeking8/CodeWars/tree/master/src/CodeWars/8%20Kyu)
+## [8 Kyu Katas](https://github.com/zoeking8/CodeWars/tree/master/src/CodeWars/8%20Kyu)
 1) Reversed Words
 
 2) Reversed Strings
@@ -13,5 +12,5 @@
 
 5) Convert a string to an array
 
-#7 Kyu Kata
+## 7 Kyu Kata
 
