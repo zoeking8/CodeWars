@@ -10,7 +10,7 @@ namespace CodeWars.UnitTests
 
 		public void MakeComplement(int num, string expected)
 		{
-			var actual = ConvertNumberString.NumberToString(num);
+			var actual = ConvertNumberStringKata.NumberToString(num);
 
 			Assert.AreEqual(expected, actual);
 		}

@@ -12,7 +12,7 @@ namespace CodeWars.UnitTests
 
 		public void Check(object[]a, object X, bool expected)
 		{
-			var actual = OnlyNeedOne.Check(a, X);
+			var actual = OnlyNeedOneKata.Check(a, X);
 			Assert.AreEqual(expected, actual);
 		}
 	}

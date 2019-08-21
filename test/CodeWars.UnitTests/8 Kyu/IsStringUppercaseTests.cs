@@ -11,7 +11,7 @@ namespace CodeWars.UnitTests
 
 		public void Uppercase(string s, bool expected)
 		{
-			var actual = IsStringUppercase.Uppercase(s);
+			var actual = IsStringUppercaseKata.Uppercase(s);
 			Assert.AreEqual(expected, actual);
 		}
 	}

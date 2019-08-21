@@ -2,7 +2,7 @@
 
 namespace CodeWars
 {
-	public class DifferenceVolumeCuboids
+	public class DifferenceVolumeCuboidsKata
 	{
 		public static int FindDifference(int[] a, int[] b)
 		{

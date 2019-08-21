@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CodeWars
 {
-	public static class ReversedStrings
+	public static class ReversedStringsKata
 	{
 		public static string StringReverse(string str)
 		{

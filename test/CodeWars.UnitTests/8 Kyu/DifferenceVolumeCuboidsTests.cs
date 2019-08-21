@@ -11,7 +11,7 @@ namespace CodeWars.UnitTests
 
 		public void FindDifference(int[] a, int[] b, int expected)
 		{
-			var actual = DifferenceVolumeCuboids.FindDifference(a, b);
+			var actual = DifferenceVolumeCuboidsKata.FindDifference(a, b);
 
 			Assert.AreEqual(expected, actual);
 		}

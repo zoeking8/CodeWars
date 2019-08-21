@@ -3,10 +3,10 @@ using System.Linq;
 
 namespace CodeWars
 {
-	public class ComplementaryDna
+	public class ComplementaryDnaKata
 	{
 		public static Dictionary<char, string> _lookup;
-		static ComplementaryDna()
+		static ComplementaryDnaKata()
 		{
 			_lookup = new Dictionary<char, string>
 			{

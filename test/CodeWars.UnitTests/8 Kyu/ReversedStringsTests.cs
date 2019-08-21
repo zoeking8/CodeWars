@@ -12,7 +12,7 @@ namespace CodeWars.UnitTests
 
 		public void StringReverse(string str, string expected)
 		{
-			var actual = ReversedStrings.StringReverse(str);
+			var actual = ReversedStringsKata.StringReverse(str);
 		    Assert.AreEqual(expected, actual);
 		}
 	}

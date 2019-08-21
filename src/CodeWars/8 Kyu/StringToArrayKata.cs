@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace CodeWars
 {
-	public class StringToArray
+	public class StringToArrayKata
 	{
 		public static object[] StrToArr(string str)
 

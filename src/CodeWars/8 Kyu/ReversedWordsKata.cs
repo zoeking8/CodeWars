@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CodeWars
 {
-	public class ReversedWords
+	public class ReversedWordsKata
 
 	{
 		public static string WordReverse(string str)

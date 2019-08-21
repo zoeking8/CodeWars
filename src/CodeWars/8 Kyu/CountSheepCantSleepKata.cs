@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CodeWars
 {
-	public class CountSheepCantSleep
+	public class CountSheepCantSleepKata
 	{
 		public static string CountSheep(int n)
 		{

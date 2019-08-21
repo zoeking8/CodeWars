@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CodeWars
 {
-	public class IsStringUppercase
+	public class IsStringUppercaseKata
 	{
 		public static bool Uppercase(string s)
 

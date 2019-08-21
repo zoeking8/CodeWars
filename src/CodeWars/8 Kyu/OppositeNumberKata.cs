@@ -2,7 +2,7 @@
 
 namespace CodeWars
 {
-	public class OppositeNumber
+	public class OppositeNumberKata
 	{
 		public static int Opposite(int n)
 

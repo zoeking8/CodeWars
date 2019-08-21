@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CodeWars
 {
-	public class ConvertNumberString
+	public class ConvertNumberStringKata
 	{
 		public static string NumberToString(int num)
 		{

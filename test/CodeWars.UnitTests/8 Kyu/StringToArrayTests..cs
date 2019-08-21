@@ -9,7 +9,7 @@ namespace CodeWars.UnitTests
 
 		public void StrToArr(string str, object expected)
 		{
-			var actual = StringToArray.StrToArr(str);
+			var actual = StringToArrayKata.StrToArr(str);
 			Assert.AreEqual(expected, actual);
 		}
 	}

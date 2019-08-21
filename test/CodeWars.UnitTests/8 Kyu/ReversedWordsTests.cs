@@ -13,7 +13,7 @@ namespace CodeWars.UnitTests
 
 		public void WordReverse(string str, string expected)
 		{
-			var actual = ReversedWords.WordReverse(str);
+			var actual = ReversedWordsKata.WordReverse(str);
 			Assert.AreEqual(expected, actual);
 		}
 	}
