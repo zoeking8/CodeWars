@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Folder Include="7 Kyu\" />
+    <Folder Include="8 Kyu\" />
   </ItemGroup>
 
 </Project>
