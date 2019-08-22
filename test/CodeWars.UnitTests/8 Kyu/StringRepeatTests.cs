@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using CodeWars._8Kyu;
+using NUnit.Framework;
 
 namespace CodeWars.UnitTests
 {
@@ -7,7 +8,6 @@ namespace CodeWars.UnitTests
 		[TestCase(3, "*", "***")]
 		[TestCase(2, "I", "II")]
 		[TestCase(5, "Hello", "HelloHelloHelloHelloHello")]
-
 		public void RepeatStr(int n, string s, string expected)
 		{
 			var actual = StringRepeatKata.RepeatStr(n, s);

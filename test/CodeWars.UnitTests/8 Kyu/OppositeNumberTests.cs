@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using CodeWars._8Kyu;
+using NUnit.Framework;
 
 namespace CodeWars.UnitTests
 {
@@ -9,7 +10,6 @@ namespace CodeWars.UnitTests
 		[TestCase(5, -5)]
 		[TestCase(-14, 14)]
 		[TestCase(-34, 34)]
-
 		public void Opposite(int n, int expected)
 		{
 			var actual = OppositeNumberKata.Opposite(n);

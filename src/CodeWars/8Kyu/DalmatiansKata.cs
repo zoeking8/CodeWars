@@ -1,4 +1,4 @@
-﻿namespace CodeWars
+﻿namespace CodeWars._8Kyu
 {
 	public static class DalmatiansKata
 	{
@@ -14,7 +14,6 @@
 				return "101 DALMATIONS!!!";
 
 			return "Woah that's a lot of dogs!";
-
 		}
 	}
 }
