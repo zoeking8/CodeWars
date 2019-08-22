@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using CodeWars._8Kyu;
+using NUnit.Framework;
 
 namespace CodeWars.UnitTests
 {
@@ -10,10 +11,6 @@ namespace CodeWars.UnitTests
 		[TestCase(101, "101 DALMATIONS!!!")]
 		[TestCase(100, "Woah that's a lot of dogs!")]
 		[TestCase(102, "Woah that's a lot of dogs!")]
-
-
-
-
 		public void CountSheep(int n, string expected)
 		{
 			var actual = DalmatiansKata.HowManyDalmatians(n);
@@ -21,4 +18,3 @@ namespace CodeWars.UnitTests
 		}
 	}
 }
-

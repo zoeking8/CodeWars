@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CodeWars
+namespace CodeWars._8Kyu
 {
 	public static class ReturnNegativeKata
 	{

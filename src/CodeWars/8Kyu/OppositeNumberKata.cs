@@ -1,14 +1,11 @@
-﻿using System;
-
-namespace CodeWars
+﻿namespace CodeWars._8Kyu
 {
 	public class OppositeNumberKata
 	{
 		public static int Opposite(int n)
 
 		{
-			return n * -1; 
-
+			return n * -1;
 		}
 	}
 }

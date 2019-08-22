@@ -1,17 +1,15 @@
 ﻿using System;
 
-namespace CodeWars
+namespace CodeWars._8Kyu
 {
 	public class ReversedWordsKata
 
 	{
 		public static string WordReverse(string str)
 		{
-			string[] words = str.Split(' ');
+			var words = str.Split(' ');
 			Array.Reverse(words);
-			return String.Join(" ", words);
+			return string.Join(" ", words);
 		}
 	}
-
 }
-

@@ -1,23 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Text;
 
-namespace CodeWars
+namespace CodeWars._8Kyu
 {
 	public class StringRepeatKata
 	{
 		public static string RepeatStr(int n, string s)
 		{
-
 			var output = new StringBuilder();
 
-			for (int i = 0; i < n; i++)
-			{
-				output.Append(s);
-			}
+			for (var i = 0; i < n; i++) output.Append(s);
 
 			return output.ToString();
-
 		}
 	}
 }

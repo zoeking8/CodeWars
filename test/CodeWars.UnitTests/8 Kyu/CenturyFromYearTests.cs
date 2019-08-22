@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using CodeWars._8Kyu;
+using NUnit.Framework;
 
 namespace CodeWars.UnitTests
 {
@@ -8,8 +9,6 @@ namespace CodeWars.UnitTests
 		[TestCase(1900, 19)]
 		[TestCase(1601, 17)]
 		[TestCase(2000, 20)]
-
-
 		public void YearToCentury(int year, int expected)
 		{
 			var actual = CenturyFromYearKata.YearToCentury(year);

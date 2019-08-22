@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using CodeWars._8Kyu;
+using NUnit.Framework;
 
 namespace CodeWars.UnitTests
 {
@@ -16,5 +17,4 @@ namespace CodeWars.UnitTests
 			Assert.AreEqual(expected, actual);
 		}
 	}
-
 }
