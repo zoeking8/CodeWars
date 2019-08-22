@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using CodeWars._8Kyu;
+using NUnit.Framework;
 
 namespace CodeWars.UnitTests
 {
@@ -7,7 +8,6 @@ namespace CodeWars.UnitTests
 		[TestCase(123, "123")]
 		[TestCase(999, "999")]
 		[TestCase(4788, "4788")]
-
 		public void MakeComplement(int num, string expected)
 		{
 			var actual = ConvertNumberStringKata.NumberToString(num);
@@ -15,5 +15,4 @@ namespace CodeWars.UnitTests
 			Assert.AreEqual(expected, actual);
 		}
 	}
-
 }

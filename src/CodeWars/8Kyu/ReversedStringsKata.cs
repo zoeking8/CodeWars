@@ -1,14 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CodeWars
+namespace CodeWars._8Kyu
 {
 	public static class ReversedStringsKata
 	{
 		public static string StringReverse(string str)
 		{
-			char[] charArray = str.ToCharArray();
+			var charArray = str.ToCharArray();
 			Array.Reverse(charArray);
 			return new string(charArray);
 		}

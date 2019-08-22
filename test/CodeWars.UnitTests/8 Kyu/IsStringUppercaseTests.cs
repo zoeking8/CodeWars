@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using CodeWars._8Kyu;
+using NUnit.Framework;
 
 namespace CodeWars.UnitTests
 {
@@ -8,7 +9,6 @@ namespace CodeWars.UnitTests
 		[TestCase("C", true)]
 		[TestCase("ACSKLDFJSgSKLDFJSKLDFJ", false)]
 		[TestCase("ACSKLDFJSGSKLDFJSKLDFJ", true)]
-
 		public void Uppercase(string s, bool expected)
 		{
 			var actual = IsStringUppercaseKata.Uppercase(s);
