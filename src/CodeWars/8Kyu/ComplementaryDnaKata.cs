@@ -17,20 +17,9 @@ namespace CodeWars._8Kyu
 				{'G', "C"}
 			};
 		}
-
 		public static string MakeComplement(string dna)
 		{
 			return string.Concat(dna.Select(x => _lookup[x]));
 		}
-
-		//public static string MakeComplement(string dna)
-		//{
-		//    var temp = new StringBuilder();
-		//    for (var i = 0; i < dna.Length; i++)
-		//    {
-		//        temp.Append(_lookup[dna[i]]);
-		//    }
-		//    return temp.ToString();
-		//}
 	}
 }

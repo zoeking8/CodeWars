@@ -4,9 +4,9 @@ namespace CodeWars._8Kyu
 {
 	public class CenturyFromYearKata
 	{
-		public static int YearToCentury(int year)
+		public static double YearToCentury(double year)
 		{
-			return (int) Math.Ceiling(year / 100d);
+			return (double) Math.Ceiling(year / 100);
 		}
 	}
 }

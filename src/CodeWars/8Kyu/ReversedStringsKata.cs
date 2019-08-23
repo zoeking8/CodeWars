@@ -7,7 +7,9 @@ namespace CodeWars._8Kyu
 		public static string StringReverse(string str)
 		{
 			var charArray = str.ToCharArray();
+
 			Array.Reverse(charArray);
+
 			return new string(charArray);
 		}
 	}

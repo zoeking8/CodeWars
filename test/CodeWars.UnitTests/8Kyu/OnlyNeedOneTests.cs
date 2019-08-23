@@ -1,7 +1,7 @@
 ﻿using CodeWars._8Kyu;
 using NUnit.Framework;
 
-namespace CodeWars.UnitTests
+namespace CodeWars.UnitTests._8Kyu
 {
 	public class OnlyNeedOneTests
 	{

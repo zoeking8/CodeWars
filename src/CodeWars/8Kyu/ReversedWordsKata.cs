@@ -8,7 +8,9 @@ namespace CodeWars._8Kyu
 		public static string WordReverse(string str)
 		{
 			var words = str.Split(' ');
+
 			Array.Reverse(words);
+
 			return string.Join(" ", words);
 		}
 	}

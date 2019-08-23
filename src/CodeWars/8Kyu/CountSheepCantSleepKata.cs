@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using System.Linq;
 
 namespace CodeWars._8Kyu
 {
@@ -8,7 +9,10 @@ namespace CodeWars._8Kyu
 		{
 			var sheepCount = new StringBuilder();
 
-			for (var i = 1; i <= n; i++) sheepCount.Append(i + " sheep...");
+			for (var i = 1; i <= n; i++)
+			{
+				sheepCount.Append(i + " sheep...");
+			}
 
 			return sheepCount.ToString();
 		}
