@@ -11,7 +11,7 @@ namespace CodeWars.UnitTests._8Kyu
 		[TestCase(101, "101 DALMATIONS!!!")]
 		[TestCase(100, "Woah that's a lot of dogs!")]
 		[TestCase(102, "Woah that's a lot of dogs!")]
-		public void CountSheep(int n, string expected)
+		public void DalmationsCount(int n, string expected)
 		{
 			var actual = DalmatiansKata.HowManyDalmatians(n);
 			Assert.AreEqual(expected, actual);

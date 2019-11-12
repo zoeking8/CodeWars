@@ -8,7 +8,7 @@ namespace CodeWars.UnitTests._8Kyu
 		[TestCase(123, "123")]
 		[TestCase(999, "999")]
 		[TestCase(4788, "4788")]
-		public void MakeComplement(int num, string expected)
+		public void NumberToString(int num, string expected)
 		{
 			var actual = ConvertNumberStringKata.NumberToString(num);
 
