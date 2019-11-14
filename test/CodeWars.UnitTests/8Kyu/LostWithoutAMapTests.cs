@@ -1,5 +1,4 @@
 ﻿using NUnit.Framework;
-using System;
 using CodeWars._8Kyu;
 
 namespace CodeWars.UnitTests._8Kyu

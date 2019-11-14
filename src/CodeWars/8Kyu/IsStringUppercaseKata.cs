@@ -3,7 +3,6 @@
 	public class IsStringUppercaseKata
 	{
 		public static bool Uppercase(string s)
-
 		{
 			return s.ToUpper() == s;
 		}

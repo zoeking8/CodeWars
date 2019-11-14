@@ -3,7 +3,6 @@
 namespace CodeWars._8Kyu
 {
 	public class ReversedWordsKata
-
 	{
 		public static string WordReverse(string str)
 		{

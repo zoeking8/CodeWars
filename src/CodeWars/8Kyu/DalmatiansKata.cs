@@ -17,7 +17,6 @@
 			{
 				return "Woah that's a lot of dogs!";
 			}
-
 		}
 	}
 }

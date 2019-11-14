@@ -1,5 +1,4 @@
-﻿using System.IO;
-using CodeWars._7Kyu;
+﻿using CodeWars._7Kyu;
 using NUnit.Framework;
 
 namespace CodeWars.UnitTests._7Kyu
@@ -22,12 +21,5 @@ namespace CodeWars.UnitTests._7Kyu
 				"Let's go hunt, doo doo doo doo doo doo", "Let's go hunt!", "Run away,…", "");
 			Assert.AreEqual(expected, actual);
 		}
-
-		//[Test]
-		//public void BelowCharLimit()
-		//{
-		//	var ln = File.ReadAllText(@"/workspace/solution.txt").Length;
-		//	Assert.That(ln, Is.LessThan(300));
-		//}
 	}
 }

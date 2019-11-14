@@ -6,11 +6,12 @@ using System.Linq;
 
 namespace CodeWars._6Kyu
 {
-	class FindSimilaritiesInLists
+	public class FindSimilaritiesInLists
 	{
-		public static bool SimilarityTwoLists(IEnumerable<string> listA, IEnumerable<string> listB)
+		public static string AnySimilarity(List<int> firstList, List<int> secondList, int n)
 		{
-			return listA.Any(x => listB.Contains(x));
+			var similarities = firstList.Where(x => secondList.Contains(n));
+			return similarities.ToString();
 		}
 	}
 }
