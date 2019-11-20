@@ -15,7 +15,6 @@ namespace CodeWars._6Kyu
 					numbersInts.Add(i);
 				}
 			}
-
 			var sum = numbersInts.Sum();
 			return sum;
 		}

@@ -1,7 +1,6 @@
 ﻿using System.Linq;
 using static System.String;
 
-
 namespace CodeWars._6Kyu
 {
 	public class WhoLikesIt
@@ -14,22 +13,23 @@ namespace CodeWars._6Kyu
 			}
 			else
 			{
-				int count = name.Count();
-				if (count > 1 && count < 3)
+				var count = name.Length;
+				if (count > 1 && count < 4)
 				{
-					string s = Join(", ", name.Take(count - 2)
+					var s = Join(", ", name.Take(count - 2)
 						.Concat(new[] { Join(" and ", name.Skip(count - 2)) }));
 					return (s + " like this");
 				}
 				if (count > 3)
 				{
-					string s = Join(", ", name.Take(count + 3)
-						.Concat(new[] { Join(" and ", name.Skip(count - 2)) }));
-					return (s + " like this");
+					var numberCount = count - 2;
+					var s = Join(", ", name.Take(2)
+					);
+					return (s + " and " + numberCount +" others like this");
 				}
 				else
 				{
-					string s = Join(", ", name.Take(count - 2)
+					var s = Join(", ", name.Take(count - 2)
 						.Concat(new[] { Join(" and ", name.Skip(count - 2)) }));
 					return (s + " likes this");
 				}

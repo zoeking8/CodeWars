@@ -1,5 +1,4 @@
 ﻿using System.Text;
-using System.Linq;
 
 namespace CodeWars._8Kyu
 {

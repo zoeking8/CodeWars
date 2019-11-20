@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Linq;
 
 
@@ -10,7 +8,7 @@ namespace CodeWars._6Kyu
 	{
 		public static string AnySimilarity(List<int> firstList, List<int> secondList, int n)
 		{
-			var similarities = firstList.Where(x => secondList.Contains(n));
+			var similarities = firstList.Where(x => secondList.Contains(n)).ToList();
 			return similarities.ToString();
 		}
 	}

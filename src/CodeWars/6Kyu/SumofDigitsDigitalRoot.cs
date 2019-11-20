@@ -1,4 +1,6 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
+using System.Numerics;
 
 namespace CodeWars._6Kyu
 {
@@ -12,5 +14,9 @@ namespace CodeWars._6Kyu
 			}
 			return (int)n;
 		}
+	}
+	public static class Kata
+	{
+		
 	}
 }
